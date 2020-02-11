@@ -3,9 +3,13 @@ package Newyear;
  class OtherSweets extends Sweets {
     String name;
     int weight;
+    int cost;
 
     int getWeight(){
         return weight;
+    }
+    int getCost() {
+        return cost;
     }
 
      public String getName() {
